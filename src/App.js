@@ -41,6 +41,7 @@ const App = () => {
         if (result.cod === "404") {
           setError(true);
         } else {
+          setError(false)
           getImage();
         }
         setResult(result);
@@ -105,13 +106,14 @@ const App = () => {
 
   // Cargar un componente condicionalmente
   let component1;
-  console.log(typeof component1);
-  if (error) {
+  if (!error) {
     // Si hay un error, mostrar el componente Error
-    component1 = <Error message="There are no results for this search" />;
+    component1 = <Weather result={result} />;
+
   } else {
     //Mostrar el clima
-    component1 = <Weather result={result} />;
+    component1 = <Error message="There are no results for this search" />;
+
   }
   let component2;
   if (noImage) {
