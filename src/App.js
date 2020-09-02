@@ -40,6 +40,7 @@ const App = () => {
         console.log(result);
         if (result.cod === "404") {
           setError(true);
+          setImage(false)
         } else {
           setError(false)
           getImage();
