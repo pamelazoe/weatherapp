@@ -2,7 +2,7 @@ import Form from "../components/Form";
 import Error from "../components/Error";
 import Weather from "../components/Weather";
 import AuthorData from "../components/AuthorData";
-import "./search.css";
+import "./Search.css";
 
 const Search = ({
 	isToggled,

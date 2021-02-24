@@ -1,5 +1,5 @@
 import React from "react";
-import "./weather.css";
+import "./Weather.css";
 import Temperature from "./Temperature";
 
 const Weather = ({ result, isToggled, setIsToggled }) => {

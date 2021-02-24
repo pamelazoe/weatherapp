@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Error from "./Error";
-import "./form.css";
+import "./Form.css";
 import ToggleSwitch from "../components/ToggleSwitch";
 
 const Form = ({ search, setSearch, setConsult, isToggled, setIsToggled }) => {

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import DotsVertical from "./DotsVertical";
 import DotsHorizontal from "./DotsHorizontal";
-import "./header.css";
+import "./Header.css";
 const Header = () => {
 	const [click, setClick] = useState(false);
 	const handleClick = () => setClick(!click);

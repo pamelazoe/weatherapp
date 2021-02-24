@@ -1,4 +1,4 @@
-import "./authordata.css";
+import "./Authordata.css";
 
 const AuthorData = ({
 	name,
