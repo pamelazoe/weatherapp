@@ -1,0 +1,391 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+	.author-data {
+		margin: 0.2em 0;
+	}
+	.author-metadata {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+	}
+	.author-links {
+		display: flex;
+		flex-flow: row;
+		margin: 0 7.5vw 0 0;
+		width: 40vw;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.author-name {
+		color: white;
+		font-family: "Nunito";
+		margin: 0 0 0 7.5vw;
+		width: 45vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: flex-start;
+		font-size: 3.5vw;
+		letter-spacing: 0.1em;
+	}
+	svg {
+		height: 6.5vw;
+		width: auto;
+	}
+	.author-twitter,
+	.author-instagram,
+	.author-unsplash,
+	.author-image {
+		width: 7.5vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+	.author-data {
+		margin: 1em 0;
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: row;
+		align-content: center;
+		align-items: center;
+	}
+	.author-metadata {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+	}
+	.author-links {
+		display: flex;
+		flex-flow: row;
+		margin: 0 7.5vw 0 0;
+		width: 40vw;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.author-name {
+		color: white;
+		font-family: "Nunito";
+		margin: 0 0 0 7.5vw;
+		width: 45vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: flex-start;
+		font-size: 3.5vw;
+		letter-spacing: 0.1em;
+	}
+	svg {
+		height: 5.6vw;
+		width: auto;
+	}
+	.author-twitter,
+	.author-instagram,
+	.author-unsplash,
+	.author-image {
+		width: 7.5vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+	.author-data {
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: row;
+		align-content: center;
+		align-items: center;
+	}
+	.author-metadata {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+		width: 90vw;
+	}
+	.author-links {
+		display: flex;
+		flex-flow: row;
+		width: 40vw;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.author-name {
+		color: white;
+		font-family: "Nunito";
+		width: 45vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: flex-start;
+		font-size: 2.5vw;
+		letter-spacing: 0.1em;
+	}
+	svg {
+		height: 4vw;
+		width: auto;
+	}
+	.author-twitter,
+	.author-instagram,
+	.author-unsplash,
+	.author-image {
+		width: 7.5vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+	.author-data {
+		margin: 1em 0;
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: row;
+		align-content: center;
+		align-items: center;
+	}
+	.author-metadata {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+	}
+	.author-links {
+		display: flex;
+		flex-flow: row;
+		margin: 0 7.5vw 0 0;
+		width: 40vw;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.author-name {
+		color: white;
+		font-family: "Nunito";
+		margin: 0 0 0 7.5vw;
+		width: 45vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: flex-start;
+		font-size: 3.5vw;
+		letter-spacing: 0.1em;
+	}
+	svg {
+		height: 5.6vw;
+		width: auto;
+	}
+	.author-twitter,
+	.author-instagram,
+	.author-unsplash,
+	.author-image {
+		width: 7.5vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+	.author-data {
+		margin: 1em 1.9em;
+		display: flex;
+		justify-content: center;
+		flex-flow: row;
+		align-content: center;
+		align-items: center;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 50vw;
+	}
+	.author-metadata {
+		display: flex;
+		flex-flow: row-reverse;
+		width: 100%;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+	}
+	.author-links {
+		display: flex;
+		flex-flow: row;
+		width: 40vw;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.author-name {
+		color: white;
+		font-family: "Nunito";
+		width: 30vw;
+		justify-content: flex-end;
+		font-size: 2vw;
+		display: flex;
+		flex-flow: row;
+		letter-spacing: 0.1em;
+	}
+	svg {
+		height: 2vw;
+		width: auto;
+	}
+	.author-twitter,
+	.author-instagram,
+	.author-unsplash,
+	.author-image {
+		width: 4vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: portrait) {
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape) {
+	.author-data {
+		margin: 1em 1.9em;
+		display: flex;
+		justify-content: center;
+		flex-flow: row;
+		align-content: center;
+		align-items: center;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 50vw;
+	}
+	.author-metadata {
+		display: flex;
+		flex-flow: row-reverse;
+		width: 100%;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+	}
+	.author-links {
+		display: flex;
+		flex-flow: row;
+		width: 40vw;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.author-name {
+		color: white;
+		font-family: "Nunito";
+		width: 30vw;
+		justify-content: flex-end;
+		font-size: 2vw;
+		display: flex;
+		flex-flow: row;
+		letter-spacing: 0.1em;
+	}
+	svg {
+		height: 2vw;
+		width: auto;
+	}
+	.author-twitter,
+	.author-instagram,
+	.author-unsplash,
+	.author-image {
+		width: 4vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+@media screen and (min-width: 1201px) {
+	.author-data {
+		margin: 1em 1.9em;
+		display: flex;
+		justify-content: center;
+		flex-flow: row;
+		align-content: center;
+		align-items: center;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 50vw;
+	}
+	.author-metadata {
+		display: flex;
+		flex-flow: row-reverse;
+		width: 100%;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+	}
+	.author-links {
+		display: flex;
+		flex-flow: row;
+		width: 40vw;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.author-name {
+		color: white;
+		font-family: "Nunito";
+		width: 30vw;
+		justify-content: flex-end;
+		font-size: 2vw;
+		display: flex;
+		flex-flow: row;
+		letter-spacing: 0.1em;
+	}
+	svg {
+		height: 2.5vw;
+		width: auto;
+	}
+	.author-twitter,
+	.author-instagram,
+	.author-unsplash,
+	.author-image {
+		width: 4vw;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}

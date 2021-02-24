@@ -1,0 +1,210 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+	.temp-spec {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+	p.temp-name {
+		letter-spacing: 0.08em;
+		color: #ffffff;
+		font-family: "Nunito";
+		margin: 0.5vh;
+		font-size: 4vw;
+	}
+	p.temp-cap {
+		background: rgba(0, 0, 0, 0.21);
+		border-radius: 9px;
+		width: 6em;
+		letter-spacing: 0.08em;
+		font-family: "Nunito";
+		color: #ffffff;
+		margin: 0.2em;
+		height: 6vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+	.temp-spec {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+	p.temp-name {
+		letter-spacing: 0.08em;
+		color: #ffffff;
+		font-family: "Nunito";
+		margin: 0.5vh;
+		font-size: 3vw;
+	}
+	p.temp-cap {
+		background: rgba(0, 0, 0, 0.21);
+		border-radius: 9px;
+		width: 6em;
+		letter-spacing: 0.08em;
+		font-family: "Nunito";
+		color: #ffffff;
+		margin: 0.3em;
+		height: 7vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 3vw;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+	.temp-spec {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+	p.temp-name {
+		letter-spacing: 0.08em;
+		color: #ffffff;
+		font-family: "Nunito";
+		margin: 0.5vh;
+		font-size: 2vw;
+	}
+	p.temp-cap {
+		background: rgba(0, 0, 0, 0.21);
+		border-radius: 9px;
+		width: 6em;
+		letter-spacing: 0.08em;
+		font-family: "Nunito";
+		color: #ffffff;
+		margin: 0.3em;
+		height: 12vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2.5vw;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+	.temp-spec {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+	p.temp-name {
+		letter-spacing: 0.08em;
+		color: #ffffff;
+		font-family: "Nunito";
+		margin: 0.5vh;
+		font-size: 3vw;
+	}
+	p.temp-cap {
+		background: rgba(0, 0, 0, 0.21);
+		border-radius: 9px;
+		letter-spacing: 0.08em;
+		font-family: "Nunito";
+		color: #ffffff;
+		margin: 0.3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 5em;
+		height: 6vh;
+		font-size: 3.5vw;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+	.temp-spec {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+	p.temp-name {
+		letter-spacing: 0.08em;
+		color: #ffffff;
+		font-family: "Nunito";
+		margin: 0.5vh;
+		font-size: 1.5vw;
+		display: flex;
+		justify-content: center;
+	}
+	p.temp-cap {
+		background: rgba(0, 0, 0, 0.21);
+		border-radius: 9px;
+		letter-spacing: 0.08em;
+		font-family: "Nunito";
+		color: #ffffff;
+		margin: 0.3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 9vw;
+		font-size: 1.5vw;
+		height: 6vh;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: portrait) {
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape) {
+	.temp-spec {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+	p.temp-name {
+		letter-spacing: 0.08em;
+		color: #ffffff;
+		font-family: "Nunito";
+		margin: 0.5vh;
+		font-size: 1.5vw;
+		display: flex;
+		justify-content: center;
+	}
+	p.temp-cap {
+		background: rgba(0, 0, 0, 0.21);
+		border-radius: 9px;
+		letter-spacing: 0.08em;
+		font-family: "Nunito";
+		color: #ffffff;
+		margin: 0.3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 9vw;
+		font-size: 1.5vw;
+		height: 6vh;
+	}
+}
+@media screen and (min-width: 1201px) {
+	.temp-spec {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+	p.temp-name {
+		letter-spacing: 0.08em;
+		color: #ffffff;
+		font-family: "Nunito";
+		margin: 0.5vh;
+		font-size: 1.2vw;
+		display: flex;
+		justify-content: center;
+	}
+	p.temp-cap {
+		background: rgba(0, 0, 0, 0.21);
+		border-radius: 9px;
+		letter-spacing: 0.08em;
+		font-family: "Nunito";
+		color: #ffffff;
+		margin: 0.3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 7.5vw;
+		font-size: 1.2vw;
+		height: 4.5vh;
+	}
+}

@@ -1,0 +1,141 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+	.location-search {
+		font-size: 6vw;
+		font-family: "Nunito";
+		color: #e9e9e9;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+	}
+	.weather-data {
+		display: flex;
+		justify-content: center;
+		/* height: 25vh; */
+		flex-flow: wrap;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+	.location-search {
+		font-size: 5.5vw;
+		font-family: "Nunito";
+		color: #e9e9e9;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		margin: 0 0 2.5vh 0;
+	}
+	.weather-data {
+		display: flex;
+		justify-content: center;
+		/* height: 25vh; */
+		flex-flow: wrap;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+	.location-search {
+		font-size: 3.5vw;
+		font-family: "Nunito";
+		color: #e9e9e9;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		margin: 0 0 2.5vh 0;
+	}
+	.weather-data {
+		display: flex;
+		justify-content: center;
+		/* height: 25vh; */
+		flex-flow: wrap;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+	.location-search {
+		font-size: 5.5vw;
+		font-family: "Nunito";
+		color: #e9e9e9;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		margin: 0 0 2.5vh 0;
+	}
+	.weather-data {
+		display: flex;
+		justify-content: center;
+		/* height: 25vh; */
+		flex-flow: wrap;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+	.location-search {
+		font-size: 2vw;
+		font-family: "Nunito";
+		color: #e9e9e9;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		margin: 0 0 1vh 0;
+		display: flex;
+		justify-content: center;
+	}
+	.weather-data {
+		display: flex;
+		justify-content: center;
+		/* height: 25vh; */
+		flex-flow: wrap;
+	}
+	.weather-panel {
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: portrait) {
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape) {
+	.location-search {
+		font-size: 2vw;
+		font-family: "Nunito";
+		color: #e9e9e9;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		margin: 0 0 1vh 0;
+		display: flex;
+		justify-content: center;
+	}
+	.weather-data {
+		display: flex;
+		justify-content: center;
+		/* height: 25vh; */
+		flex-flow: wrap;
+	}
+	.weather-panel {
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+	}
+}
+@media screen and (min-width: 1201px) {
+	.location-search {
+		font-size: 1.7vw;
+		font-family: "Nunito";
+		color: #e9e9e9;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		margin: 0 0 1vh 0;
+		display: flex;
+		justify-content: center;
+	}
+	.weather-data {
+		display: flex;
+		justify-content: center;
+		/* height: 25vh; */
+		flex-flow: wrap;
+	}
+	.weather-panel {
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+	}
+}
